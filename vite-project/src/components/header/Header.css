@@ -1,8 +1,8 @@
 /* GLOBAL RESET (CRITICAL) */
-/* body {
+ body {
   margin: 0;
   padding: 0;
-} */
+} 
 
 /* HEADER */
 .header {
@@ -115,6 +115,11 @@
 }
 .nav_right h5 {
   font-weight: 600;
+}
+
+
+.logo {
+  pointer-events: none;
 }
 
 
