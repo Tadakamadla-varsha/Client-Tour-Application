@@ -7,7 +7,7 @@ import heroVideo from "../assets/images/hero-video.mp4";
 import worldImg from "../assets/images/world.png";
 import experienceImg from "../assets/images/experience.png";
  import Subtitle from "../shared/Subtitle";
-// import SearhBar from "../shared/SearhBar";
+import SearhBar from "../shared/SearhBar";
 // import ServiceList from "../services/ServiceList";
 // import FeaturedTourList from "../components/Featured-tours/FeaturedTourList";
 // import MasonryImagesGallery from "../components/Image-gallery/MasonryImagesGallery";
@@ -56,7 +56,7 @@ const Home = () => {
                 <img src={heroImg02} alt="Img 2" />
               </div>
             </Col>
-            {/* {<SearhBar /> } */}
+            {<SearhBar /> }
           </Row>
         </Container>
       </section>
